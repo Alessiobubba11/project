@@ -1,0 +1,91 @@
+/*************GENERAL***********/
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: 'Open Sans' , sans-serif;
+	font-size: 1.6rem;
+}
+
+a{
+	text-decoration: none;
+	font-size: 1.4 rem;
+}
+
+.container{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.clearfix::after{
+	content:"" ;
+	clear: both;
+	display: table;
+}
+/*************HEADER***********/
+
+header{
+	background: orange;
+	text-align: center;
+}
+
+header.logo-container{
+	padding: 20px;
+}
+
+header img{
+	width: 160px;
+}
+
+/*************NAVIGATION***********/
+
+nav{
+	background: #a84c32;
+	padding: 10px;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav li a{
+	color: #fff;
+	display: inline-block;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+
+/*************GALLERY***********/
+
+#gallery{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#gallery img{
+	width: 50%;
+}
+
+#gallery .item{
+	width: 50%;
+	padding: 15px;
+	float: left;
+	
+}
+
+/************FOOTER*********/
+ footer.main{
+ 
+ }
